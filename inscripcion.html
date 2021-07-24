@@ -5,26 +5,28 @@
       <title>
           Sistema de control académico Kalum v1.0.0 
       </title>
+      <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
         <header>
             <h1> Sistema de control académico <em>Kalum</em></h1>
         </header>
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./carreras-tecnicas.html">Carreras técnicas</a></li>
                 <li><a href="./clases.html">Clases</a></li>
                 <li><a href="./inscripcion.html">Inscripción</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
+                <div class="clearFix"></div>
             </ul>
         </nav>
         <hr>
-        <h2>Ficha de inscripcion</h2>
+        <h2 class="subTitulo">Ficha de inscripcion</h2>
         <div id="contenido">
             <form action="">
                 <p>
-                    <label for="carne:"></label>
+                    <label for="carne:">Carné:</label>
                     <div>
                         <input type="text" name="carne">
                         <button>Buscar</button>
