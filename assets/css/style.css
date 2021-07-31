@@ -38,6 +38,19 @@ footer a {
 #contenido table{
     margin: auto;
 }
+#contacto{
+    position: center;
+    width: 40%;
+    height: 40%;
+    text-align: right;
+    border: 0px solid #fdcc00;
+    padding: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#contacto table{
+    margin: auto;
+}
 #principal {
     margin-left: 20%;
 }
@@ -88,6 +101,15 @@ footer a {
 #contenido form *{
     display: inline-block;
 }
+#contacto form {
+    border: 5px solid blue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 70px;
+}
+#contacto form  *{
+    display: inline-table;
+}
 input[type="text"], select{
     margin-bottom: 15px;
     padding: 10px;
@@ -97,6 +119,15 @@ select{
     width: 350px;
 }
 input[type="submit"],button{
+    background: brown;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+input[type="button"],button{
     background: brown;
     color: white;
     padding: 15px;
